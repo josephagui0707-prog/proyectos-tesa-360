@@ -20,7 +20,7 @@ const Hero = () => {
   const whatsappMessage =
     "Hola, estoy interesado en una cotización para un proyecto con PROYECTOS TESA 360.";
 
-  const whatsappLink = `https://wa.me/51933186721?text=${encodeURIComponent(
+  const whatsappLink = `https://wa.me/51944251149?text=${encodeURIComponent(
     whatsappMessage
   )}`;
 
