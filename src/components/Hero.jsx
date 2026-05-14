@@ -54,12 +54,12 @@ const Hero = () => {
               INGENIERÍA • ARQUITECTURA • CONSULTORÍA
             </span>
 
-            <h1 className="display-4 fw-bold mb-4 mt-3">
+            <h1 className="hero-title fw-bold mb-4 mt-3">
               Ingeniería y Arquitectura con Visión Integral 360°
             </h1>
 
             <p
-              className="lead mb-4"
+              className="hero-text mb-4"
               style={{
                 color: "#444",
                 lineHeight: "1.8",
@@ -108,7 +108,7 @@ const Hero = () => {
                 position: "relative",
                 overflow: "hidden",
                 borderRadius: "28px",
-                height: "550px",
+                height: "var(--hero-image-height)",
                 boxShadow: "0 20px 50px rgba(0,0,0,0.18)",
               }}
             >
@@ -135,14 +135,7 @@ const Hero = () => {
               ></div>
 
               {/* TEXTO FLOTANTE */}
-              <div
-                style={{
-                  position: "absolute",
-                  bottom: "30px",
-                  left: "30px",
-                  color: "white",
-                }}
-              >
+              <div className="hero-overlay-text">
                 <h4 className="fw-bold">
                   PROYECTOS TESA 360
                 </h4>
