@@ -36,14 +36,14 @@ const Services = () => {
     <section id="servicios" className="section-light">
       <div className="container overflow-hidden">
         <motion.div
-          className="text-center mb-5"
+          className="text-center mb-4"
           initial={{ opacity: 0, y: 60 }}
           whileInView={{ opacity: 1, y: 0 }}
         >
           <h2 className="section-title">Nuestros Servicios</h2>
         </motion.div>
 
-        <div className="row g-4">
+        <div className="row g-3">
           {services.map((service, index) => (
             <motion.div
               className="col-md-6 col-lg-3"
@@ -57,9 +57,13 @@ const Services = () => {
                   {service.icon}
                 </div>
 
-                <h4>{service.title}</h4>
+                <h4 className="service-title">
+                  {service.title}
+                </h4>
 
-                <p>{service.text}</p>
+                <p className="service-text">
+                  {service.text}
+                </p>
               </div>
             </motion.div>
           ))}

@@ -642,3 +642,138 @@ img {
     line-height: 1.5;
   }
 }
+/* =========================
+   SERVICES RESPONSIVE
+========================= */
+
+/* TARJETA */
+
+.service-card {
+  padding: 28px;
+
+  border-radius: 22px;
+
+  transition: 0.3s;
+}
+
+/* ICONO */
+
+.service-icon {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  font-size: 2.2rem;
+
+  margin-bottom: 15px;
+
+  color: #044c77;
+}
+
+/* TITULO */
+
+.service-title {
+  font-size: 1.25rem;
+
+  font-weight: 700;
+
+  margin-bottom: 14px;
+}
+
+/* TEXTO */
+
+.service-text {
+  font-size: 1rem;
+
+  line-height: 1.7;
+
+  color: #555;
+}
+
+/* TABLET */
+
+@media (max-width: 991px) {
+
+  .service-card {
+    padding: 24px;
+  }
+
+  .service-icon {
+    font-size: 2.5rem;
+  }
+
+  .service-title {
+    font-size: 1.15rem;
+  }
+
+  .service-text {
+    font-size: 0.95rem;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .service-card {
+    padding: 20px;
+
+    border-radius: 18px;
+    text-align: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .service-icon {
+    font-size: 2.2rem;
+
+    margin-bottom: 15px;
+  }
+
+  .service-title {
+    font-size: 1rem;
+
+    margin-bottom: 10px;
+  }
+
+  .service-text {
+    font-size: 0.9rem;
+
+    line-height: 1.6;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+/* SMALL MOBILE */
+
+@media (max-width: 576px) {
+
+  .service-card {
+    padding: 18px;
+  }
+
+  .service-icon {
+    font-size: 2rem;
+  }
+
+  .service-title {
+    font-size: 0.95rem;
+  }
+
+  .service-text {
+    font-size: 0.85rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+}
