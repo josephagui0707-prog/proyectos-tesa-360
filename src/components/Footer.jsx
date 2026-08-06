@@ -95,11 +95,11 @@ const Footer = () => {
 
               {/* EMAIL */}
               <a
-                href="mailto:contacto@tesa360.com"
+                href="mailto:proyectostesa360@gmail.com"
                 className="footer-contact-item"
               >
                 <BsEnvelopeFill />
-                contacto@tesa360.com
+                proyectostesa360@gmail.com
               </a>
 
               {/* WHATSAPP */}
