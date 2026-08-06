@@ -83,7 +83,7 @@ const About = () => {
                 color: "#444",
               }}
             >
-              Nos dedicamos a la actividad 7110 con un compromiso
+              Nos dedicamos con un compromiso
               inquebrantable por la excelencia técnica y la
               optimización estratégica de recursos en cada etapa
               del proyecto.
